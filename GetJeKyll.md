@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 環境構築
+title: 仕様書作成ツール環境構築(Jekyll)
 ---
 # 環境構築
 
