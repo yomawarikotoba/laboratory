@@ -1,19 +1,22 @@
+---
+layout: page
+title: 環境構築
+---
 # 環境構築
+
 WindowsとMacの環境構築を記述します。
 <br>基本的にはWindowsはWSLでの環境構築となります。
 <br>もしかしたらそのうちDocker化するかもしれないです。
 
-
-
 ## Windows
-
 
 ### 1. WSLとUbuntuのインストール
 
 ```sh
 wsl --install
 ```
-###  2. Ubuntu内でRubyとJekyllの準備
+
+### 2. Ubuntu内でRubyとJekyllの準備
 
 以下のコマンドをコメントを外した状態でコピペしてください
 
@@ -31,8 +34,8 @@ source ~/.bashrc
 gem install bundler
 ```
 
-
 ### 3. プロジェクトディレクトリでJekyll起動
+
 ```sh
 bundle install
 bundle exec jekyll serve
@@ -56,6 +59,7 @@ echo 'export PATH="/opt/homebrew/opt/ruby/bin:$PATH"' >> ~/.zprofile
 source ~/.zprofile
 gem install bundler
 ```
+
 ### 3. プロジェクトディレクトリでJekyll起動
 
 ```bash
