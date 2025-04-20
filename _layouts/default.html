@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+</head>
+
+<body>
+
+    <div class="layout-wrapper">
+        <aside class="sidebar">
+            <h2 class="sidebar-title">{{ site.title }}</h2>
+            <ul class="sidebar-menu">
+                <li><a href="{{ '/' | relative_url }}">ホーム</a></li>
+                <li><a href="{{ '/GetJeKyll.html' | relative_url }}">仕様構築</a></li>
+                <li><a href="{{ '/機能.html' | relative_url }}">機能</a></li>
+            </ul>
+        </aside>
+
+        <main class="page-content">
+            {{ content }}
+        </main>
+    </div>
+
+    <footer class="site-footer">
+        <div class="wrapper">
+            <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}</p>
+        </div>
+    </footer>
+</body>
+
+</html>
