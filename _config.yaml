@@ -1,2 +1,8 @@
 title: "DI-FISH仕様書"
 theme: minima # GitHub Pages対応の公式テーマ
+
+# ナビゲーション設定
+header_pages:
+  - index.md
+  - 機能.md
+  - 使い方.md
