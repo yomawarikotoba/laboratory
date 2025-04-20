@@ -1,8 +1,8 @@
 ---
-layout: page
+layout: default
 title: 仕様書作成ツール環境構築(Jekyll)
 ---
-# 環境構築
+# 仕様書作成ツール環境構築(Jekyll)
 
 WindowsとMacの環境構築を記述します。
 <br>基本的にはWindowsはWSLでの環境構築となります。
